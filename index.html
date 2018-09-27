@@ -40,10 +40,6 @@
   <link rel="stylesheet" href="./css/animate.min.css">
   <link rel="stylesheet" href="./css/styles.css">
 
-  <!-- LOCAL -->
-  <script src="./js/pt.min.js"></script>
-  <script src="./js/index.js"></script>
-
 </head>
 <body>
   <section id="home" class="hero height-fix">
@@ -140,12 +136,12 @@
               <h1 class="info-text--bold">Who's this girl?</h1>
               <p>
                 I'm a front-end developer with professional experience in building efficient and scalable web applications. I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
-                <a href="mailto: ankita.tech011@gmail.com">Let's make something special.</a>
+                <a href="mailto: ankita.tech011@gmail.com" target="_blank">Let's make something special.</a>
               </p>
             </div>
           </div>
-          <div class="flex-item wow fadeInRight">
-            <div class="progress-wrapper">
+          <div class="flex-item">
+            <div class="progress-wrapper wow fadeInRight">
               <div class="bar">
                 <div class="bar fill" style="width: 80%">
                   <div class="bar__tag">CSS3/Sass</div>
@@ -305,9 +301,8 @@
           <div class="footer-wrapper-right">
             <a href="https://github.com/ankitatechie" target="_blank" class="inline-icon">
               <div class="hex-wrap wow flipInY" data-wow-delay="0.1s">
-                <div class="hexagon">
-                  <i class="mdi mdi-git"></i>
-                </div>
+                <div class="hexagon"></div>
+                <img src="./images/github-logo.svg" class="github-icon">
               </div>
             </a>
             <a href="https://www.linkedin.com/in/ankita-agarwal-713a6a5a/" target="_blank" class="inline-icon">
@@ -346,8 +341,11 @@
     </div>
   </section>
 
+<script src="./js/pt.min.js"></script>
 <script src="./js/canvas.js"></script>
 <script src="./js/wow.js"></script>
+<script src="./js/index.js"></script>
+
 <script>
   new WOW({
     live: true

@@ -261,7 +261,7 @@ p {
     background-size: cover; }
   .about .portfolio-wrapper h1 {
     margin: 25px 0 15px; }
-  .about .progress-wrapper.animated .fill {
+  .about .no-width {
     width: 0 !important; }
   .about .progress-wrapper {
     width: 100%; }
@@ -422,12 +422,19 @@ p {
     display: inline-block;
     margin: 5px 20px 0;
     opacity: 0.7;
-    transition: all 0.5s; }
+    transition: all 0.5s;
+    vertical-align: middle; }
     .footer-wrapper-right .inline-icon:hover {
       opacity: 1; }
     @media (min-width: 320px) and (max-width: 768px) {
       .footer-wrapper-right .inline-icon {
         margin: 5px 10px 0; } }
+  .footer-wrapper-right .github-icon {
+    width: 20px;
+    vertical-align: middle;
+    position: absolute;
+    left: 8px;
+    top: 7px; }
   .footer-wrapper-right .hex-wrap {
     width: 35px;
     height: 35px; }
